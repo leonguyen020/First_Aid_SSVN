@@ -61,15 +61,15 @@ export default class App extends React.Component {
 
 const RootStack = createStackNavigator(
   {
-    CaseSelection: CaseSelection,
-    Unconscious5: Unconscious5,
-    Login: LoginScreen,
     
+    
+    Login: LoginScreen,
+    CaseSelection: CaseSelection,
     Unconscious1: Unconscious1,
     Unconscious2: Unconscious2,
     Unconscious3: Unconscious3,
     Unconscious4: Unconscious4,
-    
+    Unconscious5: Unconscious5,
     Unconscious6: Unconscious6,
     Unconscious7: Unconscious7,
     Unconscious8: Unconscious8,

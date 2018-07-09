@@ -4,6 +4,7 @@ import PageControl from 'react-native-page-control';
 import { YellowBox } from 'react-native';
 import { Icon } from 'react-native-elements'
 import { HeaderBackButton } from 'react-navigation'
+import Video from 'react-native-video'
 
 var {width, height} = Dimensions.get('window')
 var SoundPlayer = require('react-native-sound');
@@ -148,7 +149,7 @@ render() {
         >
               <View style={{justifyContent: 'center', alignItems: 'center'}} onLayout={this.onPressButtonPlay}>
                 <View style={styles.slide1}>
-                  <Image style={styles.image}/>
+                  <Video style={styles.image} source={require('../Video/battinh1.mp4')}/>
                   <Text style={styles.semiButtonText}>
                   Kiểm tra các mối nguy hiểm xung quanh. Đảm bảo an toàn cho bản thân.
                   </Text>
